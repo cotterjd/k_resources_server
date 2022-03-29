@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "pretty": false,
+    "sourceMap": false,
+    "target": "es6",
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "lib": ["ES2015.Promise", "ES5"],
+    "allowJs": false,
+    "alwaysStrict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
