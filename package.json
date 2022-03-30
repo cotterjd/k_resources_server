@@ -1,8 +1,8 @@
 {
-  "name": "get-voting-data",
+  "name": "kahoa-resource-server-prototype",
   "version": "0.0.0",
-  "description": "returns voteing data from csv file",
-  "main": "src/index.ts",
+  "description": "returns resource data from csv file",
+  "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
     "dev": "nodemon",
